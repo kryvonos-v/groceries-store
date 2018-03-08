@@ -1,0 +1,26 @@
+<Page loaded="pageLoaded">
+  <StackLayout class="login-page">
+    <TextField
+      hint="Email address"
+      keyboardType="email"
+      capitalizationType="none"
+      autocorrect="false"
+      class="form-control"
+    />
+    <TextField
+      hint="Password"
+      secure="true"
+      class="form-control"
+    />
+    
+    <Button
+      tap="login"
+      text="Login"
+      class="btn btn--brand"
+    />
+    <Button
+      tap="signup"
+      text="Signup"
+    />
+  </StackLayout>
+</Page>
