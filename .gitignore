@@ -5,6 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# This folder contains the platform-specific code NativeScript needs to build native iOS and Android apps.
+platforms/
+
 # Runtime data
 pids
 *.pid
